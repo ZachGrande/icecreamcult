@@ -35,7 +35,7 @@ export default function Home() {
       <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen max-w-screen-lg mx-auto p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <AnimatePresence>
         {showIntroLogo && (<motion.div
-          className="absolute row-start-2 items-center sm:items-start"
+          className="row-start-2 items-center sm:items-start"
           initial={{ y: 0, scale: 1.5, opacity: 1 }}
           animate={{ y: 0, scale: 0.8, opacity: 1 }}
           exit={{ opacity: 0 }}
