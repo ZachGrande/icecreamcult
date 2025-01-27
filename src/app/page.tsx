@@ -26,13 +26,13 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <div className="bg-[#FF733E] bg-opacity-50">
       <Script
         src="https://kit.fontawesome.com/bba893f359.js"
         strategy="afterInteractive"
         crossOrigin="anonymous"
       />
-      <div className="bg-[#FF733E] bg-opacity-50 grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen max-w-screen-lg mx-auto p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <AnimatePresence>
         {showIntroLogo && (<motion.div
           className="absolute row-start-2 items-center sm:items-start"
