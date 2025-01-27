@@ -54,7 +54,7 @@ export default function Home() {
       {showElements && (
         <>
         <main className="animate-fadeIn flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center w-full">
           <Image
             className="mx-auto"
             src="/logo.png"
