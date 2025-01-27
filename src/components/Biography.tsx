@@ -18,7 +18,7 @@ export default function Biography() {
 
       <p className="text-center">Icecreamcult has played around the Pacific Northwest with shows that blend DJing, solo piano and remixed works all together. He has officially released a ridiculous amount of music, including 8 albums, 2 EPs and 19 singles and even more unofficial releases on websites like Soundcloud and Bandcamp.</p>
 
-      <p className="text-center">His newest project, currently titled &quot;Sunset Hills&quot; is set to release Summer 2025.</p>
+      <p className="text-center mx-auto">His newest project, currently titled &quot;Sunset Hills&quot; is set to release Summer 2025.</p>
     </>
   );
 }
