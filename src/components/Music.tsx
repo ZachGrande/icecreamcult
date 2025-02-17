@@ -8,6 +8,10 @@ interface MusicEntry {
 export default function Biography() {
   const music: MusicEntry[] = [
     {
+      link: 'https://open.spotify.com/embed/album/1nzRs2GHnPgcvSRuZ8sJMM',
+      size: 'SMALL'
+    },
+    {
       link: 'https://open.spotify.com/embed/album/3DHnvogihieK47w9WZ6S22',
       size: 'LARGE'
     }
