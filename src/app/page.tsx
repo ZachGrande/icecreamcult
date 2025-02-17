@@ -5,6 +5,7 @@ import Image from "next/image";
 import Script from "next/script";
 import Biography from "@/components/Biography";
 import Videos from "@/components/Videos";
+import Music from "@/components/Music";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
@@ -67,13 +68,7 @@ export default function Home() {
           </div>
             <Biography />
             <Videos />
-            <iframe
-              src="https://open.spotify.com/embed/album/3DHnvogihieK47w9WZ6S22?utm_source=generator"
-              width="100%"
-              height="352"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy">
-            </iframe>
+            <Music />
           </main>
           <Footer />
         </>
