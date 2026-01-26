@@ -16,9 +16,9 @@ export default function Biography() {
 
       <p className="text-center">Icecreamcult was created in 2017 when Adair heard a comment from his partner about them both eating excessive ice cream and having matching necklaces. Adair would spend many nights up in his rudimentary home studio and eventually friends encouraged him to officially release his works.</p>
 
-      <p className="text-center">Icecreamcult has played around the Pacific Northwest with shows that blend DJing, solo piano and remixed works all together. He has officially released a ridiculous amount of music, including 8 albums, 2 EPs and 19 singles and even more unofficial releases on websites like Soundcloud and Bandcamp.</p>
+      <p className="text-center">Icecreamcult has played around the Pacific Northwest with shows that blend DJing, solo piano and remixed works all together. He has officially released a ridiculous amount of music, including 9 albums, 2 EPs and 19 singles and even more unofficial releases on websites like Soundcloud and Bandcamp.</p>
 
-      <p className="text-center mx-auto">His newest project, currently titled &quot;Sunset Hills&quot; is set to release Summer 2025.</p>
+      <p className="text-center mx-auto">His newest project, titled &quot;Sunset Hills&quot; is released on Bandcamp as pay what you want. It will slowly be rolled out on streaming services as the year goes on, but Icecreamcult himself would prefer you get it on Bandcamp :)</p>
     </>
   );
 }
