@@ -34,6 +34,11 @@ export default function Music({ variant }: MusicProps) {
       link: 'https://open.spotify.com/embed/album/3DHnvogihieK47w9WZ6S22',
       size: 'LARGE',
       platform: 'SPOTIFY'
+    },
+    {
+      link: 'https://open.spotify.com/embed/album/5jKD5PvNTnxhYYpPI3QsTK',
+      size: 'LARGE',
+      platform: 'SPOTIFY'
     }
   ];
 
