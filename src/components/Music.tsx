@@ -9,8 +9,12 @@ interface MusicEntry {
   albumUrl?: string;
 }
 
-export default function Biography() {
-  const music: MusicEntry[] = [
+interface MusicProps {
+  variant: 'bandcamp' | 'albums';
+}
+
+export default function Music({ variant }: MusicProps) {
+  const bandcampMusic: MusicEntry[] = [
     {
       link: 'https://bandcamp.com/EmbeddedPlayer/album=3453182156/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
       size: 'LARGE',
@@ -18,6 +22,9 @@ export default function Biography() {
       title: 'Sunset Hills by Ice Cream Cult',
       albumUrl: 'https://icecreamcult.bandcamp.com/album/sunset-hills'
     },
+  ];
+
+  const albumMusic: MusicEntry[] = [
     {
       link: 'https://open.spotify.com/embed/album/1nzRs2GHnPgcvSRuZ8sJMM',
       size: 'SMALL',
@@ -29,6 +36,8 @@ export default function Biography() {
       platform: 'SPOTIFY'
     }
   ];
+
+  const music = variant === 'bandcamp' ? bandcampMusic : albumMusic;
 
   const sizeMapping: Record<MusicPlatform, Record<MusicPanelSize, number>> = {
     SPOTIFY: {
@@ -62,7 +71,7 @@ export default function Biography() {
             <iframe
               src={song.link}
               width="100%"
-              height={sizeMapping[song.size]}
+              height={sizeMapping[song.platform][song.size]}
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy">
             </iframe>
