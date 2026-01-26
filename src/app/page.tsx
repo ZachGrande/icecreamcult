@@ -28,13 +28,13 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="bg-[#FF733E] bg-opacity-50">
+    <div className="bg-[#FF733E] bg-opacity-50 overflow-x-hidden">
       <Script
         src="https://kit.fontawesome.com/bba893f359.js"
         strategy="afterInteractive"
         crossOrigin="anonymous"
       />
-      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen max-w-screen-lg mx-auto p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen max-w-screen-lg mx-auto p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] box-border">
       <AnimatePresence>
         {showIntroLogo && (<motion.div
           className="row-start-2 items-center sm:items-start"
@@ -55,7 +55,7 @@ export default function Home() {
       </AnimatePresence>
       {showElements && (
         <>
-        <main className="animate-fadeIn flex flex-col gap-8 row-start-2 items-center sm:items-start">
+        <main className="animate-fadeIn flex flex-col gap-8 row-start-2 items-center sm:items-start w-full max-w-full overflow-hidden">
         <div className="flex flex-col items-center justify-center w-full">
           <Image
             className="mx-auto"
