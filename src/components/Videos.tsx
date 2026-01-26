@@ -1,6 +1,10 @@
 export default function Biography() {
   const videos = [
     {
+      title: 'ICECREAM CULT - Album Release Show with Nodalus Clambrain, Kaeziwazi',
+      link: 'https://www.youtube.com/embed/mQTzccPDs5Q'
+    },
+    {
       title: 'Ice Cream Cult @ High Dive Sep 4th 2024',
       link: 'https://www.youtube.com/embed/KvFpgUYCqjk',
     },

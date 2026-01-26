@@ -67,8 +67,9 @@ export default function Home() {
           />
           </div>
             <Biography />
+            <Music variant="bandcamp" />
             <Videos />
-            <Music />
+            <Music variant="albums" />
           </main>
           <Footer />
         </>
