@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint ."
   },
+  "type": "module",
   "dependencies": {
     "@vercel/analytics": "^1.6.1",
     "motion": "^12.34.3",
